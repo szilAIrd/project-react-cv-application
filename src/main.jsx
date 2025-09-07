@@ -4,11 +4,13 @@ import './index.css'
 import App from './App.jsx'
 import GeneralInformation from './components/GeneralInformation.jsx'
 import EducationalExperience from './components/EducationalExperience.jsx'
+import PracticalExperience from './components/PracticalExperience.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
     <GeneralInformation/>
     <EducationalExperience></EducationalExperience>
+    <PracticalExperience></PracticalExperience>
   </StrictMode>,
 )
